@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		33DE136C2CC6AB360051056F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 33DE136B2CC6AB360051056F /* Lottie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		33DE131E2CC68B5A0051056F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DE136C2CC6AB360051056F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = HW3_Reference;
 			packageProductDependencies = (
+				33DE136B2CC6AB360051056F /* Lottie */,
 			);
 			productName = HW3_Reference;
 			productReference = 33DE13072CC68B580051056F /* HW3_Reference.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 33DE12FE2CC68B580051056F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				33DE136A2CC6AB350051056F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 33DE13082CC68B580051056F /* Products */;
 			projectDirPath = "";
@@ -295,6 +304,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +331,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,6 +576,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		33DE136A2CC6AB350051056F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33DE136B2CC6AB360051056F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33DE136A2CC6AB350051056F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 33DE12FF2CC68B580051056F /* Project object */;
 }

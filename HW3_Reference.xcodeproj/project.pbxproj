@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,7 +34,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		33DE132F2CC68B5B0051056F /* Exceptions for "HW3_Reference" folder in "HW3_Reference" target */ = {
+		33DE132F2CC68B5B0051056F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -44,24 +44,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		33DE13092CC68B580051056F /* HW3_Reference */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				33DE132F2CC68B5B0051056F /* Exceptions for "HW3_Reference" folder in "HW3_Reference" target */,
-			);
-			path = HW3_Reference;
-			sourceTree = "<group>";
-		};
-		33DE13202CC68B5A0051056F /* HW3_ReferenceTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HW3_ReferenceTests;
-			sourceTree = "<group>";
-		};
-		33DE132A2CC68B5B0051056F /* HW3_ReferenceUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HW3_ReferenceUITests;
-			sourceTree = "<group>";
-		};
+		33DE13092CC68B580051056F /* HW3_Reference */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (33DE132F2CC68B5B0051056F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = HW3_Reference; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				33DE13092CC68B580051056F /* HW3_Reference */,
-				33DE13202CC68B5A0051056F /* HW3_ReferenceTests */,
-				33DE132A2CC68B5B0051056F /* HW3_ReferenceUITests */,
 				33DE13082CC68B580051056F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,9 +130,6 @@
 			dependencies = (
 				33DE131F2CC68B5A0051056F /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				33DE13202CC68B5A0051056F /* HW3_ReferenceTests */,
-			);
 			name = HW3_ReferenceTests;
 			packageProductDependencies = (
 			);
@@ -171,9 +149,6 @@
 			);
 			dependencies = (
 				33DE13292CC68B5B0051056F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				33DE132A2CC68B5B0051056F /* HW3_ReferenceUITests */,
 			);
 			name = HW3_ReferenceUITests;
 			packageProductDependencies = (
@@ -206,6 +181,7 @@
 				};
 			};
 			buildConfigurationList = 33DE13022CC68B580051056F /* Build configuration list for PBXProject "HW3_Reference" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -217,7 +193,6 @@
 			packageReferences = (
 				33DE136A2CC6AB350051056F /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 33DE13082CC68B580051056F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
